@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_news"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/umazing"
+                />
+            <TextView
+                android:id="@+id/txt_title_news"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Umazing! Demam Umamusume Berbarengan dengan Indonesia Derby, Penggemar Gim dan Anime Ramaikan Pacuan Kuda Indonesia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_news"
+                />
+            <TextView
+                android:id="@+id/txt_content_news"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Ajang pacuan kuda yang biasanya identik dengan masyarakat sepuh kaya raya mendadak dipenuhi berbagai kalangan pemuda pada Minggu lalu (27/7). Pasalnya gelaran balap kuda paling prestis di Indonesia, Indonesia Derby berbarengan dengan tren permainan gim video Umamusume Pretty Derby.
+                \n\n Dalam seri balap kuda di Lapangan Pacuan Kuda Sultan Agung, Bantul tersebut, kurang lebih 10.000 penonton stream milik Sarga.co di YouTube turut menyaksikan kuda jantan milik kolektif King Halim Stable, King Argentine mengamankan Triple Crown Indonesia, yakni kemenangan dalam tiga balap Grade 1 Indonesia, yakni seri Triple Crown 1 dan 2, plus Indonesia Derby.
+                \n\n Sebagai informasi tambahan, menurut data Sarga.co selaku penyelenggara, Indonesia Derby 2025 diikuti oleh 156 kuda yang terbagi dalam 18 kelas, dengan total hadiah Rp 1,2 miliar. Kelas paling prestis yakni Kelas 3 Tahun Derby 2000 meter, dengan hadiah Rp 300 juta diamankan oleh King Argentine.
+                \n\n Kemenangan King Argentine menjadi momen bersejarah bagi para penggemar pacuan kuda, sebab terakhir kali Indonesian Triple Crown diamankan pada 2014 lalu oleh kuda bernama Djohar Manik. Seluruh wibu (penggemar budaya Jepang) dan gamer yang baru pertama kali menonton pacuan kuda secara langsung mengutarkan satu kata yang sama: “Umazing!”, yakni gabungan dari kata “Uma” (kuda dalam bahasa Jepang) dan “Amazing” (hebat).
+                \n\n Istilah tersebut muncul dari gim Umamusume Pretty Derby (UMPD), sebuah gim video simulasi pelatihan balap kuda asal Jepang. Namun alih-alih melatih kuda sungguhan, kuda dalam gim tersebut mengalami moefikasi, alias diubah menjadi gadis remaja anime sebagai representasi kuda versi dunia nyata, sesuai judulnya yang berarti “gadis kuda”.
+                \n\n UMPD atau sering hanya disebut Umamusume tersebut merupakan proyek multimedia yang dirilis oleh perusahaan Cygames dalam bentuk animasi dalam 2018, dan dalam bentuk gim video khusus Jepang pada 2021. Pada akhir Juni lalu, akhirnya Umamusume dirilis dalam terjemahan Bahasa Inggris dan tersedia untuk seluruh dunia untuk platform smartphone dan Steam.
+                \n\n Sesuai daerah asalnya, Umamusume berfokus pada kuda pacuan legendaris Jepang yang telah pensiun. Sebagian sudah lama meninggal seperti Silence Suzuka dan Oguri Cap, sementara sebagian lain masih hidup sebagai kuda pembiak, seperti Daiwa Scarlet dan Gold Ship.
+                \n\n Permainan Umamusume yang dikemas sebagai gim pelatihan atlet lari tersebut sukses mengundang banyak perhatian wibu dan gamer yang awam terhadap balap kuda di dunia nyata, terlebih banyak dari pacuan kuda di gim diambil dari kisah pacuan kuda versi nyata. Sehingga tak pelak, Indonesia Derby dipandang sebagai versi live-action dari gim baru kesayangan mereka.
+                \n\n Ketertarikan para wibu dan gamer muda terhadap Indonesia Derby membara hingga akhir balap. Selain ramai-ramai berkata “umazing!”, sebagian menyamakan kemampuan kuda-kuda Indonesia dengan kuda dalam gim tersebut, misal kuda-kuda yang punya kemampuan menyusul di saat-saat terakhir bakal disamakan dengan Gold Ship, yang punya kemampuan sama persis baik di dunia nyata maupun virtual.
+                \n\n Selain itu pasca balapan, banyak yang ramai-ramai ‘menyihir’ King Argentine menjadi gadis kuda layaknya karakter-karakter Umamusume. Bahkan banyak pula yang meminta Cygames agar memasukkan King Argentine ke dalam gim Umamusume. Ada pula yang bercanda ‘kapan konsernya?’, merujuk pada mekanisme gim yang menampilkan konser jika gadis kuda milik pemain menang pacuan.
+                \n\n Bahkan pihak Sarga.co tidak keberatan dan menyambut baik tren tersebut. “Boleh sekali!” ujar pihak Sarga.co mengenai moefikasi para peserta Indonesia Derby di X (dulu Twitter).
+                \n\n Dengan resepsi positif dari Indonesia Derby, fenomena ini menunjukkan pengemasan konten yang baik dan kreatif dapat memunculkan tren baru bagi kalangan muda. Tentu, keberlanjutan tren ini perlu diimbangi dengan umpan balik yang memadai dari para pegiat pacuan kuda Indonesia, termasuk Pordasi sebagai asosiasi olahraga berkuda di Indonesia agar fenomena ini tidak berakhir sebagai sekedar FOMO (takut tertinggal tren) dan menguap dengan cepat. (edo)
+                "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_title_news"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
