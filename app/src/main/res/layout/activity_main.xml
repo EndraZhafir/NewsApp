@@ -11,14 +11,17 @@
     <include
         android:id="@+id/toolbar"
         layout="@layout/layout_toolbar" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintBottom_toBottomOf="parent">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
+
             <ImageView
                 android:id="@+id/img_news"
                 android:layout_width="wrap_content"
@@ -27,8 +30,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:src="@drawable/umazing"
-                />
+                android:src="@drawable/umazing" />
+
             <TextView
                 android:id="@+id/txt_title_news"
                 android:layout_width="0dp"
@@ -38,11 +41,11 @@
                 android:layout_marginEnd="16dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:text="Umazing! Demam Umamusume Berbarengan dengan Indonesia Derby, Penggemar Gim dan Anime Ramaikan Pacuan Kuda Indonesia"
+                android:text="@string/umazing_demam_umamusume_berbarengan_dengan_indonesia_derby_penggemar_gim_dan_anime_ramaikan_pacuan_kuda_indonesia"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/img_news"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/img_news" />
+
             <TextView
                 android:id="@+id/txt_content_news"
                 android:layout_width="0dp"
@@ -50,31 +53,48 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:text="Ajang pacuan kuda yang biasanya identik dengan masyarakat sepuh kaya raya mendadak dipenuhi berbagai kalangan pemuda pada Minggu lalu (27/7). Pasalnya gelaran balap kuda paling prestis di Indonesia, Indonesia Derby berbarengan dengan tren permainan gim video Umamusume Pretty Derby.
-                \n\n Dalam seri balap kuda di Lapangan Pacuan Kuda Sultan Agung, Bantul tersebut, kurang lebih 10.000 penonton stream milik Sarga.co di YouTube turut menyaksikan kuda jantan milik kolektif King Halim Stable, King Argentine mengamankan Triple Crown Indonesia, yakni kemenangan dalam tiga balap Grade 1 Indonesia, yakni seri Triple Crown 1 dan 2, plus Indonesia Derby.
-                \n\n Sebagai informasi tambahan, menurut data Sarga.co selaku penyelenggara, Indonesia Derby 2025 diikuti oleh 156 kuda yang terbagi dalam 18 kelas, dengan total hadiah Rp 1,2 miliar. Kelas paling prestis yakni Kelas 3 Tahun Derby 2000 meter, dengan hadiah Rp 300 juta diamankan oleh King Argentine.
-                \n\n Kemenangan King Argentine menjadi momen bersejarah bagi para penggemar pacuan kuda, sebab terakhir kali Indonesian Triple Crown diamankan pada 2014 lalu oleh kuda bernama Djohar Manik. Seluruh wibu (penggemar budaya Jepang) dan gamer yang baru pertama kali menonton pacuan kuda secara langsung mengutarkan satu kata yang sama: “Umazing!”, yakni gabungan dari kata “Uma” (kuda dalam bahasa Jepang) dan “Amazing” (hebat).
-                \n\n Istilah tersebut muncul dari gim Umamusume Pretty Derby (UMPD), sebuah gim video simulasi pelatihan balap kuda asal Jepang. Namun alih-alih melatih kuda sungguhan, kuda dalam gim tersebut mengalami moefikasi, alias diubah menjadi gadis remaja anime sebagai representasi kuda versi dunia nyata, sesuai judulnya yang berarti “gadis kuda”.
-                \n\n UMPD atau sering hanya disebut Umamusume tersebut merupakan proyek multimedia yang dirilis oleh perusahaan Cygames dalam bentuk animasi dalam 2018, dan dalam bentuk gim video khusus Jepang pada 2021. Pada akhir Juni lalu, akhirnya Umamusume dirilis dalam terjemahan Bahasa Inggris dan tersedia untuk seluruh dunia untuk platform smartphone dan Steam.
-                \n\n Sesuai daerah asalnya, Umamusume berfokus pada kuda pacuan legendaris Jepang yang telah pensiun. Sebagian sudah lama meninggal seperti Silence Suzuka dan Oguri Cap, sementara sebagian lain masih hidup sebagai kuda pembiak, seperti Daiwa Scarlet dan Gold Ship.
-                \n\n Permainan Umamusume yang dikemas sebagai gim pelatihan atlet lari tersebut sukses mengundang banyak perhatian wibu dan gamer yang awam terhadap balap kuda di dunia nyata, terlebih banyak dari pacuan kuda di gim diambil dari kisah pacuan kuda versi nyata. Sehingga tak pelak, Indonesia Derby dipandang sebagai versi live-action dari gim baru kesayangan mereka.
-                \n\n Ketertarikan para wibu dan gamer muda terhadap Indonesia Derby membara hingga akhir balap. Selain ramai-ramai berkata “umazing!”, sebagian menyamakan kemampuan kuda-kuda Indonesia dengan kuda dalam gim tersebut, misal kuda-kuda yang punya kemampuan menyusul di saat-saat terakhir bakal disamakan dengan Gold Ship, yang punya kemampuan sama persis baik di dunia nyata maupun virtual.
-                \n\n Selain itu pasca balapan, banyak yang ramai-ramai ‘menyihir’ King Argentine menjadi gadis kuda layaknya karakter-karakter Umamusume. Bahkan banyak pula yang meminta Cygames agar memasukkan King Argentine ke dalam gim Umamusume. Ada pula yang bercanda ‘kapan konsernya?’, merujuk pada mekanisme gim yang menampilkan konser jika gadis kuda milik pemain menang pacuan.
-                \n\n Bahkan pihak Sarga.co tidak keberatan dan menyambut baik tren tersebut. “Boleh sekali!” ujar pihak Sarga.co mengenai moefikasi para peserta Indonesia Derby di X (dulu Twitter).
-                \n\n Dengan resepsi positif dari Indonesia Derby, fenomena ini menunjukkan pengemasan konten yang baik dan kreatif dapat memunculkan tren baru bagi kalangan muda. Tentu, keberlanjutan tren ini perlu diimbangi dengan umpan balik yang memadai dari para pegiat pacuan kuda Indonesia, termasuk Pordasi sebagai asosiasi olahraga berkuda di Indonesia agar fenomena ini tidak berakhir sebagai sekedar FOMO (takut tertinggal tren) dan menguap dengan cepat. (edo)
-                "
+                android:paddingBottom="16dp"
+                android:text="@string/ajang_pacuan_kuda_yang_biasanya_identik_dengan_masyarakat_sepuh_kaya_raya_mendadak_dipenuhi_berbagai_kalangan_pemuda_pada_minggu_lalu_27_7_pasalnya_gelaran_balap_kuda_paling_prestis_di_indonesia_indonesia_derby_berbarengan_dengan_tren_permainan_gim_video_umamusume_pretty_derby_n_n_dalam_seri_balap_kuda_di_lapangan_pacuan_kuda_sultan_agung_bantul_tersebut_kurang_lebih_10_000_penonton_stream_milik_sarga_co_di_youtube_turut_menyaksikan_kuda_jantan_milik_kolektif_king_halim_stable_king_argentine_mengamankan_triple_crown_indonesia_yakni_kemenangan_dalam_tiga_balap_grade_1_indonesia_yakni_seri_triple_crown_1_dan_2_plus_indonesia_derby_n_n_sebagai_informasi_tambahan_menurut_data_sarga_co_selaku_penyelenggara_indonesia_derby_2025_diikuti_oleh_156_kuda_yang_terbagi_dalam_18_kelas_dengan_total_hadiah_rp_1_2_miliar_kelas_paling_prestis_yakni_kelas_3_tahun_derby_2000_meter_dengan_hadiah_rp_300_juta_diamankan_oleh_king_argentine_n_n_kemenangan_king_argentine_menjadi_momen_bersejarah_bagi_para_penggemar_pacuan_kuda_sebab_terakhir_kali_indonesian_triple_crown_diamankan_pada_2014_lalu_oleh_kuda_bernama_djohar_manik_seluruh_wibu_penggemar_budaya_jepang_dan_gamer_yang_baru_pertama_kali_menonton_pacuan_kuda_secara_langsung_mengutarkan_satu_kata_yang_sama_umazing_yakni_gabungan_dari_kata_uma_kuda_dalam_bahasa_jepang_dan_amazing_hebat_n_n_istilah_tersebut_muncul_dari_gim_umamusume_pretty_derby_umpd_sebuah_gim_video_simulasi_pelatihan_balap_kuda_asal_jepang_namun_alih_alih_melatih_kuda_sungguhan_kuda_dalam_gim_tersebut_mengalami_moefikasi_alias_diubah_menjadi_gadis_remaja_anime_sebagai_representasi_kuda_versi_dunia_nyata_sesuai_judulnya_yang_berarti_gadis_kuda_n_n_umpd_atau_sering_hanya_disebut_umamusume_tersebut_merupakan_proyek_multimedia_yang_dirilis_oleh_perusahaan_cygames_dalam_bentuk_animasi_dalam_2018_dan_dalam_bentuk_gim_video_khusus_jepang_pada_2021_pada_akhir_juni_lalu_akhirnya_umamusume_dirilis_dalam_terjemahan_bahasa_inggris_dan_tersedia_untuk_seluruh_dunia_untuk_platform_smartphone_dan_steam_n_n_sesuai_daerah_asalnya_umamusume_berfokus_pada_kuda_pacuan_legendaris_jepang_yang_telah_pensiun_sebagian_sudah_lama_meninggal_seperti_silence_suzuka_dan_oguri_cap_sementara_sebagian_lain_masih_hidup_sebagai_kuda_pembiak_seperti_daiwa_scarlet_dan_gold_ship_n_n_permainan_umamusume_yang_dikemas_sebagai_gim_pelatihan_atlet_lari_tersebut_sukses_mengundang_banyak_perhatian_wibu_dan_gamer_yang_awam_terhadap_balap_kuda_di_dunia_nyata_terlebih_banyak_dari_pacuan_kuda_di_gim_diambil_dari_kisah_pacuan_kuda_versi_nyata_sehingga_tak_pelak_indonesia_derby_dipandang_sebagai_versi_live_action_dari_gim_baru_kesayangan_mereka_n_n_ketertarikan_para_wibu_dan_gamer_muda_terhadap_indonesia_derby_membara_hingga_akhir_balap_selain_ramai_ramai_berkata_umazing_sebagian_menyamakan_kemampuan_kuda_kuda_indonesia_dengan_kuda_dalam_gim_tersebut_misal_kuda_kuda_yang_punya_kemampuan_menyusul_di_saat_saat_terakhir_bakal_disamakan_dengan_gold_ship_yang_punya_kemampuan_sama_persis_baik_di_dunia_nyata_maupun_virtual_n_n_selain_itu_pasca_balapan_banyak_yang_ramai_ramai_menyihir_king_argentine_menjadi_gadis_kuda_layaknya_karakter_karakter_umamusume_bahkan_banyak_pula_yang_meminta_cygames_agar_memasukkan_king_argentine_ke_dalam_gim_umamusume_ada_pula_yang_bercanda_kapan_konsernya_merujuk_pada_mekanisme_gim_yang_menampilkan_konser_jika_gadis_kuda_milik_pemain_menang_pacuan_n_n_bahkan_pihak_sarga_co_tidak_keberatan_dan_menyambut_baik_tren_tersebut_boleh_sekali_ujar_pihak_sarga_co_mengenai_moefikasi_para_peserta_indonesia_derby_di_x_dulu_twitter_n_n_dengan_resepsi_positif_dari_indonesia_derby_fenomena_ini_menunjukkan_pengemasan_konten_yang_baik_dan_kreatif_dapat_memunculkan_tren_baru_bagi_kalangan_muda_tentu_keberlanjutan_tren_ini_perlu_diimbangi_dengan_umpan_balik_yang_memadai_dari_para_pegiat_pacuan_kuda_indonesia_termasuk_pordasi_sebagai_asosiasi_olahraga_berkuda_di_indonesia_agar_fenomena_ini_tidak_berakhir_sebagai_sekedar_fomo_takut_tertinggal_tren_dan_menguap_dengan_cepat_edo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_title_news"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/txt_title_news" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <Button
+                android:id="@+id/btn_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/sebelumnya"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_content_news" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/selanjutnya"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/txt_content_news" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
